@@ -1,0 +1,39 @@
+
+#services {
+background-color: var(--gray-100);
+
+.serv {
+  padding-top: 88px;
+}
+
+.wrapper {
+  margin-top: 56px;
+  padding-bottom: 120px;
+
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    font: var(--title-sm);
+    color: var(--gray-600);
+  }
+  p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+
+  .area {
+    width: 280px;
+    height: 155px;
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+
+    img {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  }
+}
+}

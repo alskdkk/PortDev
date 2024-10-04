@@ -1,0 +1,39 @@
+
+#projects {
+  background-color: var(--gray-200);
+  
+  .container  {
+    .card {
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      width: 330px;
+      height: 280px;
+
+      .img-project {
+        margin-top: 12px;
+        margin-left: 12px;
+        
+        width: 306px;
+        border-radius: 8px;
+        }
+          
+          h3 {
+            margin-top: 20px;
+            margin-bottom: 8px;
+            margin-left: 12px;
+            font: var(--title-sm);
+            color: var(--gray-600);
+          }
+          p {
+            margin-left: 12px;
+            margin-bottom: 17px;
+            font: var(--text-sm);
+            color: var(--gray-500);
+          }
+        
+      }
+    }
+
+
+
+  }
