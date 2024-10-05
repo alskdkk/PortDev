@@ -30,7 +30,7 @@
     margin-inline: auto;
 
     h6 {
-      width: 288px;
+      width: 70px;
       font: var(--text-md);
       color: var(--gray-500);
     }
@@ -55,8 +55,22 @@
       background-image: url(../assets/icons/arrow-right.svg);
       width: 20px;
       height: 20px;
+      transition: 0.4s;
+    
       
     }
+    
   }
+  
+  .Link:hover{
+    border: 1px solid var(--blue);
+  }
+
+  .Link:hover .arrowright {
+      margin-left: 210px;
+      transition: 0.4s;
+  }
+
+
   
 }

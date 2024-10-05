@@ -8,6 +8,7 @@
       border-radius: 12px;
       width: 330px;
       height: 280px;
+      transition: 0.4s;
 
       .img-project {
         margin-top: 12px;
@@ -30,6 +31,13 @@
             font: var(--text-sm);
             color: var(--gray-500);
           }
+        
+      }
+
+      .card:hover{
+        border: 1px solid var(--gray-500);
+        padding-top: 5px;
+        transition: all 0.3s;
         
       }
     }
